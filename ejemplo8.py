@@ -1,9 +1,10 @@
 from reportlab.graphics.charts.piecharts import Pie
-from reportlab.lib import colors
-from reportlab.graphics.shapes import Drawing
 from reportlab.graphics.charts.legends import Legend
+from reportlab.graphics.shapes import Drawing
 from reportlab.lib.pagesizes import A4
+from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate
+
 guion = []
 
 d = Drawing(300,200)
